@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.liufan.mutildatasource.dao.sqlserver.SqlserverDao">
+
+    <select id="selectSqlServer"  resultType="map">
+        select spid, spmch from spkfk where spid = 'SPH00000002'
+    </select>
+</mapper>

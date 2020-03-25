@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+### 数据配置
+spring:
+  datasource:
+    sqlserver:
+      jdbc-url: jdbc:sqlserver://192.168.0.208:1433;database=yp_test;
+      username: sa
+      password: ysk123!@#
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    oracle:
+      jdbc-url: jdbc:oracle:thin:@192.168.0.209:1521/orcl
+      username: wms_axze
+      password: wms
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+    mysql:
+      jdbc-url: jdbc:mysql://192.168.0.125:3306/tspsdb?useUnicode=true&characterEncoding=utf8
+      username: tspsdb
+      password: Tspsdbabc123!@#
+      driver-class-name: com.mysql.jdbc.Driver

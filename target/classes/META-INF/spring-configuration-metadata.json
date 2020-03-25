@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.mysql",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.liufan.mutildatasource.config.MysqlConfig",
+      "sourceMethod": "getDateSource1()"
+    },
+    {
+      "name": "spring.datasource.oracle",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.liufan.mutildatasource.config.OracleConfig",
+      "sourceMethod": "getDateSource1()"
+    },
+    {
+      "name": "spring.datasource.sqlserver",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.liufan.mutildatasource.config.SqlServerConfig",
+      "sourceMethod": "getDateSource1()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
